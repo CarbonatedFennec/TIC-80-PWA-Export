@@ -60,6 +60,8 @@
     </style>
 </head>
 <body style="margin:0; padding:0;">
+  
+    <div id="diy-console"></div>
 
     <div class="game" style="margin: 0; position: relative; background: black;">
 
@@ -295,7 +297,7 @@
         }
 
         if ("serviceWorker" in navigator) {
-          navigator.serviceWorker.register("/worker.js");
+            navigator.serviceWorker.register("/worker.js");
         }
     </script>
 </body>
