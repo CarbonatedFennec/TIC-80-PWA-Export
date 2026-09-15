@@ -39,3 +39,7 @@ startup.
 
 `icons`: Your app's icons, you can add
 different resolutions here.
+
+# Known issues
+* Config is not saved after closing the app
+(`pmem` works fine)
