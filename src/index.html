@@ -297,7 +297,12 @@
         }
 
         if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("/worker.js");
+            let pathname = window.location.pathname;
+            if (pathname.lastIndexOf(".") > 0) {
+                navigator.serviceWorker.register("worker.js");
+            } else {
+                navigator.serviceWorker.register(`${pathname}/worker.js`);
+            }
         }
     </script>
 </body>
