@@ -8,6 +8,9 @@ on mobile, meaning you won't have to pull
 dark magic in order to export your game for
 them.
 
+You can check it out in action here:
+https://carbonatedfennec.github.io/TIC-80-PWA-Export/src/
+
 # How to use
 Just copy and paste the cartridge as cart.tic.
 More information on how to customize your app's
